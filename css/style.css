@@ -2,7 +2,7 @@ html {
   height: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  color: #555555;
+  color: #555;
   font-family: "Montserrat", sans-serif; }
 
 *, :after, :before {
@@ -17,7 +17,7 @@ body {
 a:link,
 a:visited {
   text-decoration: none;
-  color: #F9680E;
+  color: #f9680e;
   font-weight: normal; }
 
 h1 {
@@ -189,7 +189,7 @@ h4 {
     transform: rotateY(180deg);
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
-    background-color: #F9E2B4; }
+    background-color: #f9e2b4; }
     .faq .back p {
       margin-bottom: 10px; }
   .faq .flip-container:nth-child(8n + 1) .front,
@@ -337,6 +337,22 @@ h4 {
   .preschool-2 .custom-list {
     margin-left: 20px; }
 
+.musical-studio .main-content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .musical-studio .main-content .school-img {
+    max-width: 50%;
+    display: block;
+    margin-bottom: 50px; }
+  .musical-studio .main-content .custom-list {
+    margin-top: 20px; }
+  .musical-studio .main-content .boldText {
+    font-weight: bold;
+    margin-top: 20px; }
+
 .map {
   background-color: #eaf1f9;
   padding-bottom: 80px; }
@@ -397,7 +413,7 @@ h4 {
     .page-footer-text.contacts > a:visited,
     .page-footer-text.contacts > a:hover,
     .page-footer-text.contacts > a:active {
-      color: #F9E2B4;
+      color: #f9e2b4;
       text-decoration: none; }
   .page-footer .social-links {
     display: -webkit-box;
@@ -554,7 +570,9 @@ h4 {
     .faq .back .text {
       font-size: 16px; }
   .page-footer .wrap {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .musical-studio .main-content .school-img {
+    max-width: 100%; } }
 
 @media screen and (max-width: 414px) {
   .page-header .header-text {
